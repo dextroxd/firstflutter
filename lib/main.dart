@@ -1,4 +1,11 @@
 import 'package:flutter/material.dart';
-void main(){
-  runApp(new Center(child: new Text("hello,there",textDirection: TextDirection.ltr,),));
+import './ui/welocme_home.dart';
+void main() {
+  runApp(new MaterialApp(
+    color: Colors.deepOrange,
+    title: "Welcome App",
+    home: new Welcome(),
+  ));
 }
+
+
